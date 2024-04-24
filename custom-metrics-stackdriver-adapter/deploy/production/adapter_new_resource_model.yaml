@@ -75,6 +75,7 @@ metadata:
     run: custom-metrics-stackdriver-adapter
     k8s-app: custom-metrics-stackdriver-adapter
 spec:
+  hostNetwork: true
   replicas: 1
   selector:
     matchLabels:
